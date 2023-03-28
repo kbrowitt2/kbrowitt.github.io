@@ -1,0 +1,38 @@
+h2 {
+	color: #FA92B1; /*changes color of text*/
+	font-family:timesnewroman; /*changes font style*/
+	text-align: center;
+	background-color: FDE4DE; /*changes background color of this elemtn*/
+	padding: 50px; /*manipulates space between the text and all walls of border*/
+}
+
+h3 {
+	font-family: timesnewroman;
+	text-align: center;
+}
+
+#highlight {
+	color: #FA92B1;
+}
+
+.top {
+	background-color: FDE4DE;
+	float: center;
+}
+
+p {
+	text-align: center;
+}
+
+body {
+	background-color: #D0E69E; /*this changed the whole color of background*/
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%; /*manipulates the size of the photo*/
+	height: 75%; /*manipulates the size of the photo*/	
+	border: 5px solid #FDE4DE; /*adds a fun border*/
+}
