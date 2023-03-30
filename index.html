@@ -6,21 +6,68 @@
 
 <link rel="stylesheet" href="style.css">
 
+<style>
+      /* style the menu */
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #444444;
+      }
+      
+      /* style the menu items */
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: DED9E2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #110;
+      }
+      
+      /* float text to the right */
+      .right {
+        float: right;
+      }
+      
+      /* style the text */
+      .menu-text {
+        display: block;
+        color: DED9E2;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    </style>
+
 </head>
 
 <body>
-
-<h2> ENGLISH 877 WEBSITE </h2>
+    <!-- create the menu -->
+    <ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="right"><span class="menu-text"><em>ENGL 877 WEBSITE</em></span></li>
+    </ul>
 
 <div class="top">
 
-<h3 id="highlight"><em>About</em></h3>
-<p><a href="page2.html">Click here to go to page 2</a></p>
+<h3 id="highlight">Welcome to my ENGL 877 website</h3>
+<p>This website is will house materials created and collected throughout this class. This website is currently underconstruction.</p>
 
-<p>All materials featured on this website have been pulled from <em><a href="https://onemorevoice.org/index.html" syle="color:#80A1D4;">One More Voice</a></em></p>
+<p>All materials featured on this website have been pulled from <em><a href="https://onemorevoice.org/index.html" syle="color:#80A1D4;">One More Voice</a></em>.</p>
 </div>
 
-<img src="cats.jpg" alt="Two cats sit on a coffee table." title="Karmen's cats: Goose and Lucy" class="center">
+<p id="imgtxt">Please enjoy the following image while the site is being developed.</p>
+<img src="cats.jpg" alt="Two cats sit on a coffee table." title="Karmen's cats: Goose and Lucy">
 
 </body>
 

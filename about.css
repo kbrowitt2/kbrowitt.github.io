@@ -1,0 +1,28 @@
+body {
+	background-color: #f7f4ea; /*this changed the whole color of background*/
+}
+
+h3 {
+	color: #444444;
+	text-align: center;
+	background-color: DED9E2; /*changes background color of this elemtn*/
+	padding: 5px; /*manipulates space between the text and all walls of border*/
+}
+
+.top {
+	background-color: DED9E2;
+	border: 2px solid #444444;
+	float: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p {
+	text-align: justify;
+	text-indent: 20px;
+}

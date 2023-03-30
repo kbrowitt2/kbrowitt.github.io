@@ -1,15 +1,9 @@
 h2 {
 	color: #75C9C8; /*changes color of text*/
-	/* floral white: f7f4ea
-		lavender: DED9E2
-		perwinkle: C0B9DD
-		vista blue: 80A1D4
-		tiffany blue: 75C9C8 */
 	font-family:timesnewroman; /*changes font style*/
 	text-align: center;
 	background-color: DED9E2; /*changes background color of this elemtn*/
 	padding: 10px; /*manipulates space between the text and all walls of border*/
-	margin: 0px;
 }
 
 h3 {
@@ -17,15 +11,15 @@ h3 {
 	text-align: center;
 }
 
-
-#highlight {
-	color: #75C9C8;
-}
-
 .top {
 	background-color: DED9E2;
+	border: 2px solid #444444;
 	float: center;
-	margin: 0 100px;
+	margin: 30 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 p {
@@ -36,12 +30,34 @@ body {
 	background-color: #f7f4ea; /*this changed the whole color of background*/
 }
 
-.center {
+#imgtxt {
+	background-color: DED9E2;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #444444;
+}
+
+img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 100%; /*manipulates the size of the photo*/
+	max-width: 50%; /*manipulates the size of the photo*/
 	width: 25%;
 	height: auto; /*manipulates the size of the photo*/	
 	border: 5px solid #DED9E2; /*adds a fun border*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { /* snaps image to match certain sizes.
+		this one is for tablets */
+	img {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 767px) { /* snaps image to match devices. for phone */
+	img {
+		width: 50%;
+	}
 }
