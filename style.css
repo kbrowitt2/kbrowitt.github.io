@@ -1,8 +1,13 @@
 h2 {
-	color: #FA92B1; /*changes color of text*/
+	color: #75C9C8; /*changes color of text*/
+	/* floral white: f7f4ea
+		lavender: DED9E2
+		perwinkle: C0B9DD
+		vista blue: 80A1D4
+		tiffany blue: 75C9C8 */
 	font-family:timesnewroman; /*changes font style*/
 	text-align: center;
-	background-color: FDE4DE; /*changes background color of this elemtn*/
+	background-color: DED9E2; /*changes background color of this elemtn*/
 	padding: 50px; /*manipulates space between the text and all walls of border*/
 }
 
@@ -12,12 +17,16 @@ h3 {
 }
 
 #highlight {
-	color: #FA92B1;
+	color: #75C9C8;
 }
 
 .top {
-	background-color: FDE4DE;
+	background-color: DED9E2;
 	float: center;
+}
+
+.link {
+	color: 80A1D4;
 }
 
 p {
@@ -25,7 +34,7 @@ p {
 }
 
 body {
-	background-color: #D0E69E; /*this changed the whole color of background*/
+	background-color: #f7f4ea; /*this changed the whole color of background*/
 }
 
 .center {
@@ -34,5 +43,5 @@ body {
 	margin-right: auto;
 	width: 25%; /*manipulates the size of the photo*/
 	height: 75%; /*manipulates the size of the photo*/	
-	border: 5px solid #FDE4DE; /*adds a fun border*/
+	border: 5px solid #DED9E2; /*adds a fun border*/
 }
