@@ -8,7 +8,8 @@ h2 {
 	font-family:timesnewroman; /*changes font style*/
 	text-align: center;
 	background-color: DED9E2; /*changes background color of this elemtn*/
-	padding: 50px; /*manipulates space between the text and all walls of border*/
+	padding: 10px; /*manipulates space between the text and all walls of border*/
+	margin: 0px;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
 .top {
 	background-color: DED9E2;
 	float: center;
+	margin: 0 100px;
 }
 
 p {
@@ -38,7 +40,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%; /*manipulates the size of the photo*/
-	height: 75%; /*manipulates the size of the photo*/	
+	max-width: 100%; /*manipulates the size of the photo*/
+	width: 25%;
+	height: auto; /*manipulates the size of the photo*/	
 	border: 5px solid #DED9E2; /*adds a fun border*/
 }
