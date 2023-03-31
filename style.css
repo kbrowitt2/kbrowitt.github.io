@@ -46,7 +46,8 @@ img {
 	max-width: 50%; /*manipulates the size of the photo*/
 	width: 25%;
 	height: auto; /*manipulates the size of the photo*/	
-	border: 5px solid #DED9E2; /*adds a fun border*/
+	border: 7px solid #DED9E2; /*adds a fun border*/
+	outline: 2px solid black;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { /* snaps image to match certain sizes.
