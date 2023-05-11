@@ -1,0 +1,22 @@
+body {
+	background-color: #f7f4ea; /*this changed the whole color of background*/
+}
+
+h2 {
+	color: black; /*changes color of text*/
+	font-family:timesnewroman; /*changes font style*/
+	text-align: center;
+	background-color: DED9E2; /*changes background color of this elemtn*/
+	padding: 10px; /*manipulates space between the text and all walls of border*/
+}
+
+.top {
+	background-color: DED9E2;
+	border: 2px solid #444444;
+	float: center;
+	margin: 30 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

@@ -1,34 +1,31 @@
-h2 {
-	text-align: center;
-	margin-bottom: -70px;
-}
-
-h3 {
-	font-family: timesnewroman;
-	text-align: center;
-}
-
-.top {
-	background-color: DED9E2;
-	border: 2px solid #444444;
-	float: center;
-	margin: 30 50px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-p {
-	text-align: center;
-}
-
-.paratext {
-	text-align: justify;
-}
-
 body {
 	background-color: #f7f4ea; /*this changed the whole color of background*/
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: solid black 2px;
+	background-color: #DED9E2;
+	padding: 10px;
+	font-size: 20px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: -100;
+	margin-top: 100px;
+}
+
+.italics {
+	text-align: center;
+}
+p {
+	text-align: justify;
+	text-indent: 20px;
 }
 
 .container {
@@ -36,6 +33,8 @@ body {
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin-top: 0;
+      padding-top: 20px;
     }
     .box {
       width: 500px;
@@ -67,8 +66,4 @@ body {
 .boxtext {
 	color: #444444;
 	padding: 0 15px;
-}
-
-.boxes {
-	padding: 50px;
 }
