@@ -1,9 +1,14 @@
 # Project Files
 
 ## File Descriptions
-- about.css
-- about.html
-- browitt_omv.txt: These files are completed assignments for the ENGL877: Advanced Topics of Digital Humanities course. They include descriptions of literary works from the website One More Voice, themes that connect those works, and a bibliography of scholarly articles.
-- browitt_response.txt: These files are responses to articles that we read in ENGL877.
-- index.css
-- index.html
+- about.css: CSS for about page
+- about.html: HTML code for about page (includes Manifesto on Project Development)
+- content.css: CSS for content page
+- content.html: HTML code for content page (includes all links to the literary materials)
+- index.html: HTML code for homepage
+- style.css: CSS for homepage (includes links to Timeline, Discord, Buzzfeed Quiz, and Zotero)
+- timeline.css: CSS for timeline
+- timeline.html: HTML code for timeline (includes timeline of Project Development; timeline created from TimelineJS)
+
+## Data Folder
+- This folder includes all of the reading responses and One More Voice assignments.
